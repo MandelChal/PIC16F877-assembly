@@ -15,13 +15,6 @@
 ; displaying a victory message; otherwise, an error message appears.
 ; You can restart the game by pressing the PORTA <5> button for another guess.
 
-; Good luck!
-
-;serves:
-;Penina Assaraf: 346012610
-;Aviva Brurian: 213354731
-;Michal Mandelbaum: 213842677
-;*************************************************************************************
 		org		0x00
 
 reset:	goto	initialization 		; Start the main program that will run serially
